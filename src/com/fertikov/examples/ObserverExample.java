@@ -1,6 +1,6 @@
 package com.fertikov.examples;
 
-import com.fertikov.patterns.observer.Observable;
+import com.fertikov.patterns.observer.Subject;
 
 public class ObserverExample {
 
@@ -8,11 +8,11 @@ public class ObserverExample {
         Subject subject = new Subject();
         subject.attach(observable -> {
             Subject subj = (Subject) observable;
-            System.out.println("Observer 1 sees coordinates: " + subj.x + ":" + subj.y);
+            System.out.println("Observer 1 sees coordinates: " + subj.getX() + ":" + subj.getY());
         });
         subject.attach(observable -> {
             Subject subj = (Subject) observable;
-            System.out.println("Observer 2 sees coordinates: " + subj.x + ":" + subj.y);
+            System.out.println("Observer 2 sees coordinates: " + subj.getY() + ":" + subj.getX());
         });
 
         subject.moveX();
@@ -21,18 +21,4 @@ public class ObserverExample {
         subject.moveX();
     }
 
-    private static class Subject extends Observable {
-        private int x;
-        private int y;
-
-        void moveX() {
-            x += 1;
-            notifyObservers();
-        }
-
-        void moveY() {
-            y += 1;
-            notifyObservers();
-        }
-    }
 }
