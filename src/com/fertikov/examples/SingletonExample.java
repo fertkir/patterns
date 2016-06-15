@@ -1,8 +1,8 @@
-package com.company.singleton;
+package com.fertikov.examples;
 
-import com.company.singleton.singletons.*;
+import com.fertikov.patterns.singleton.*;
 
-public class SingleThreadedMain {
+public class SingletonExample {
     public static void main(String[] args) {
         System.out.println(Singleton1.getInstance() == Singleton1.getInstance());
         System.out.println(Singleton2.getInstance() == Singleton2.getInstance());

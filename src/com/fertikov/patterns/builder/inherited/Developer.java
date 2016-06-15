@@ -1,4 +1,4 @@
-package com.company.builder.inherited;
+package com.fertikov.patterns.builder.inherited;
 
 public class Developer extends Employee {
     private final String language;

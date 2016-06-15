@@ -1,4 +1,4 @@
-package com.company.builder.simple;
+package com.fertikov.patterns.builder.simple;
 
 public final class SomeObject {
     private final int field1;

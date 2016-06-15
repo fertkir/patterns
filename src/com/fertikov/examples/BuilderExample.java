@@ -1,12 +1,13 @@
-package com.company.builder;
+package com.fertikov.examples;
 
-import com.company.builder.inherited.Developer;
-import com.company.builder.inherited.Manager;
-import com.company.builder.simple.SomeObject;
+import com.fertikov.patterns.builder.inherited.Developer;
+import com.fertikov.patterns.builder.inherited.Manager;
+import com.fertikov.patterns.builder.simple.SomeObject;
 
 import static java.time.LocalDate.of;
 
-public class Main {
+public class BuilderExample {
+
     public static void main(String[] args) {
         SomeObject someObject = SomeObject.builder()
                 .field1(123)

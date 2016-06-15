@@ -1,4 +1,4 @@
-package com.company.builder.inherited;
+package com.fertikov.patterns.builder.inherited;
 
 import java.util.ArrayList;
 import java.util.List;

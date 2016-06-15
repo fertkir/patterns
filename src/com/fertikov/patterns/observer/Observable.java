@@ -1,4 +1,4 @@
-package com.company.observer;
+package com.fertikov.patterns.observer;
 
 import java.util.ArrayList;
 import java.util.List;

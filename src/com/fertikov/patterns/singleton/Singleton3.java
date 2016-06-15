@@ -1,4 +1,4 @@
-package com.company.singleton.singletons;
+package com.fertikov.patterns.singleton;
 
 /**
  * Thread-safe lazy singleton without exception handling
