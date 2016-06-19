@@ -1,8 +1,8 @@
 package com.fertikov.examples;
 
-import com.fertikov.patterns.builder.inherited.Developer;
-import com.fertikov.patterns.builder.inherited.Manager;
-import com.fertikov.patterns.builder.simple.SomeObject;
+import com.fertikov.patterns.creational.builder.inherited.Developer;
+import com.fertikov.patterns.creational.builder.inherited.Manager;
+import com.fertikov.patterns.creational.builder.simple.SomeObject;
 
 import static java.time.LocalDate.of;
 

@@ -1,6 +1,6 @@
 package com.fertikov.examples;
 
-import com.fertikov.patterns.prototype.Prototype;
+import com.fertikov.patterns.creational.prototype.Prototype;
 
 public class PrototypeExample {
     public static void main(String[] args) {

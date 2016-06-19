@@ -1,8 +1,8 @@
 package com.fertikov.examples;
 
-import com.fertikov.patterns.factorymethod.Bird;
-import com.fertikov.patterns.factorymethod.Chicken;
-import com.fertikov.patterns.factorymethod.Pigeon;
+import com.fertikov.patterns.creational.factorymethod.Bird;
+import com.fertikov.patterns.creational.factorymethod.Chicken;
+import com.fertikov.patterns.creational.factorymethod.Pigeon;
 
 public class FactoryMethodExample {
     public static void main(String[] args) {

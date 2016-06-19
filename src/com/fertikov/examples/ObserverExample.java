@@ -1,6 +1,6 @@
 package com.fertikov.examples;
 
-import com.fertikov.patterns.observer.Subject;
+import com.fertikov.patterns.behavioral.observer.Subject;
 
 public class ObserverExample {
 

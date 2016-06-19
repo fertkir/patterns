@@ -1,6 +1,6 @@
 package com.fertikov.examples;
 
-import com.fertikov.patterns.decorator.*;
+import com.fertikov.patterns.structural.decorator.*;
 
 public class DecoratorExample {
     public static void main(String[] args) {

@@ -1,6 +1,6 @@
 package com.fertikov.examples;
 
-import com.fertikov.patterns.abstractfactory.*;
+import com.fertikov.patterns.creational.abstractfactory.*;
 
 public class AbstractFactoryExample {
     public static void main(String[] args) {

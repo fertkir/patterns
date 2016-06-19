@@ -1,8 +1,8 @@
 package com.fertikov.examples;
 
-import com.fertikov.patterns.bridge.Abstraction;
-import com.fertikov.patterns.bridge.MockImplementor;
-import com.fertikov.patterns.bridge.RealImplementor;
+import com.fertikov.patterns.structural.bridge.Abstraction;
+import com.fertikov.patterns.structural.bridge.MockImplementor;
+import com.fertikov.patterns.structural.bridge.RealImplementor;
 
 public class BridgeExample {
     public static void main(String[] args) {

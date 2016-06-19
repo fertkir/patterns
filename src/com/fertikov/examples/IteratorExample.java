@@ -1,7 +1,7 @@
 package com.fertikov.examples;
 
-import com.fertikov.patterns.iterator.Iterator;
-import com.fertikov.patterns.iterator.MyList;
+import com.fertikov.patterns.behavioral.iterator.Iterator;
+import com.fertikov.patterns.behavioral.iterator.MyList;
 
 public class IteratorExample {
     public static void main(String[] args) {

@@ -1,6 +1,6 @@
 package com.fertikov.examples;
 
-import com.fertikov.patterns.singleton.*;
+import com.fertikov.patterns.creational.singleton.*;
 
 public class SingletonExample {
     public static void main(String[] args) {

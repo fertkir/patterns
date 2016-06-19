@@ -1,8 +1,8 @@
 package com.fertikov.examples;
 
-import com.fertikov.patterns.templatemethod.AbstractAlgorithm;
-import com.fertikov.patterns.templatemethod.ConcreteAlgorithm1;
-import com.fertikov.patterns.templatemethod.ConcreteAlgorithm2;
+import com.fertikov.patterns.behavioral.templatemethod.AbstractAlgorithm;
+import com.fertikov.patterns.behavioral.templatemethod.ConcreteAlgorithm1;
+import com.fertikov.patterns.behavioral.templatemethod.ConcreteAlgorithm2;
 
 import static java.util.Arrays.asList;
 

@@ -1,8 +1,8 @@
 package com.fertikov.examples;
 
-import com.fertikov.patterns.proxy.Component;
-import com.fertikov.patterns.proxy.ComponentImpl;
-import com.fertikov.patterns.proxy.ComponentLoggingProxy;
+import com.fertikov.patterns.structural.proxy.Component;
+import com.fertikov.patterns.structural.proxy.ComponentImpl;
+import com.fertikov.patterns.structural.proxy.ComponentLoggingProxy;
 
 public class ProxyExample {
     public static void main(String[] args) {

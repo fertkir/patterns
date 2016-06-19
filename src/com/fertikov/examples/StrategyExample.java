@@ -1,6 +1,6 @@
 package com.fertikov.examples;
 
-import com.fertikov.patterns.strategy.Unit;
+import com.fertikov.patterns.behavioral.strategy.Unit;
 
 public class StrategyExample {
     public static void main(String[] args) {
